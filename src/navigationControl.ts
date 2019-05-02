@@ -38,6 +38,7 @@ export const main: Layout = {
                     options: {
                         bottomTab: {
                             text: 'Home',
+                            icon: require('./img/house.png')
                         },
                     },
                 },
@@ -48,6 +49,7 @@ export const main: Layout = {
                     options: {
                         bottomTab: {
                             text: 'History',
+                            icon: require('./img/edit.png')
                         },
                     },
                 },
@@ -58,6 +60,7 @@ export const main: Layout = {
                     options: {
                         bottomTab: {
                             text: 'Info',
+                            icon: require('./img/message.png')
                         },
                     },
                 },
@@ -68,6 +71,7 @@ export const main: Layout = {
                     options: {
                         bottomTab: {
                             text: 'Profile',
+                            icon: require('./img/avatar.png')
                         },
                     },
                 },
