@@ -12,6 +12,8 @@ import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.reactnativenavigation.react.ReactGateway;
 import com.oblador.vectoricons.VectorIconsPackage;
+import com.swmansion.reanimated.ReanimatedPackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 
 import org.unimodules.adapters.react.ReactAdapterPackage;
 import org.unimodules.adapters.react.ModuleRegistryAdapter;
@@ -55,7 +57,9 @@ public class MainApplication extends NavigationApplication {
         return Arrays.<ReactPackage>asList(
             new VectorIconsPackage(),
             new MainReactPackage(),
-            new ModuleRegistryAdapter(mModuleRegistryProvider)
+            new ModuleRegistryAdapter(mModuleRegistryProvider),
+            new ReanimatedPackage(),
+            new RNGestureHandlerPackage()
         );
     }
   

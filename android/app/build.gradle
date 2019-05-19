@@ -162,6 +162,8 @@ dependencies {
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation project(':react-native-navigation')
     implementation project(':react-native-vector-icons')
+    implementation project(':react-native-reanimated')
+    implementation project(':react-native-gesture-handler')
     addUnimodulesDependencies()
 }
 
